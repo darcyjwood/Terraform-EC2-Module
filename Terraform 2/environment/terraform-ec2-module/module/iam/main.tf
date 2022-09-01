@@ -20,3 +20,4 @@ resource "aws_iam_instance_profile" "s3_profile" {
   name = var.instance_profile_name
   role = aws_iam_role.s3_role.name
 }
+
